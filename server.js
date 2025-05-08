@@ -18,7 +18,7 @@ app.use(cookieParser());
 
 app.get("/", (req, res) => {
   res.json({
-    message: "Server is running",
+    message: "Server is running in vercel",
   });
 });
 
